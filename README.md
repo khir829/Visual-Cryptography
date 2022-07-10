@@ -2,7 +2,7 @@
 A visual cryptography program using MATLAB  
 This was a 2021 project assignment at the University of Auckland set by Pete Bier (https://profiles.auckland.ac.nz/p-bier)  
   
-This project requirec me to write code that will encrypt and decrypt messages using a technique
+This project required me to write code that will encrypt and decrypt messages using a technique
 known as visual cryptography.  
   
 Cryptographic algorithms are extremely important and allow messages to be sent securely from one
@@ -18,6 +18,6 @@ Visual cryptography is highly secure, as it is impossible to decrypt a cipher im
 the correct key image.
 
 This code can take an image and make a key and cipher image out of it.  
-The only limitation is that the image that is decrypted using the key and cipher images will be a binary black and white image.  
+A limitation is that the image that is decrypted using the key and cipher images will be a binary black and white image.  
 It is best if the image you may want to encrypt is originally black and white.  
   
