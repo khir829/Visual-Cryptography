@@ -1,4 +1,4 @@
- function [swap] = ImageComplement(original)
+function [swap] = ImageComplement(original)
 % This function takes an image and swaps black for white and white for
 % black.
 
@@ -27,3 +27,4 @@ end
 
 
 end
+

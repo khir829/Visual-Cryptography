@@ -18,7 +18,25 @@ elseif values == 255
     values = values - 1;
 end
 
-% convert to an uint8 value
 alteredvalues = uint8(values);
+
+% Initially I thought that the input was going to be a 2d array but on
+% reading the task again I realised that was not the case. The code below
+% actually works even when I designed it for a 2d array but I will not use
+% it. I am saving this piece of code just in case I may use it later on.
+
+% [rows,cols] = size(values);
+% for i = 1:rows
+%     for j = 1:cols
+%         if values(i,j) ~= 255
+%             values(i,j) = values(i,j) + 1;
+%         elseif values(i,j) == 255
+%             values(i,j) = values(i,j) - 1;
+%         end
+%         
+%     end
+% end
+% 
+% alteredvalues(i,j) = values(i,j);
 
 end

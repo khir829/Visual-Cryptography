@@ -1,4 +1,4 @@
- function [cipher] = EncryptImage(image,key)
+function [cipher] = EncryptImage(image,key)
 % This function will encrypt a plain image using a key array of patterns 
 % (a cell array containing 2x2 patterns), to obtain an encrypted cipher 
 % array of patterns (a cell array containing 2x2 patterns)
@@ -42,3 +42,4 @@ for i = 1:rows
 end
 
 end
+

@@ -1,0 +1,10 @@
+[bwTroll,trollKey,trollcipher]=ImageEncrypterOutput('troll.png');
+
+figure(1)
+subplot(3,1,1),
+imshow(im1);
+subplot(3,1,2),
+imshow(im1)
+imshow(bwTroll)
+imshow(trollKey)
+imshow(trollcipher)

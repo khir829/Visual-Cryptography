@@ -16,6 +16,9 @@ function [imagePattern] = PatternsToImage(key)
 % Obtain the the number of rows and columns of the input array, the 'key',
 % to create a nested for loop. As stated in the header comments, the output
 % should be twice the size of the input.
+
+% Obtain the size of the image input to create a nested for loop. The size
+% of the output cell array should be half the size of the input array.
 [rows,cols] = size(key);
 
 imagePattern = zeros(2*rows,2*cols);
@@ -51,3 +54,4 @@ end
 % Convert to uint8
 imagePattern = uint8(imagePattern);
 end
+
